@@ -1,6 +1,6 @@
 # PDF Summarizer
 
-PDF Summarizer is an application that leverages the power of the LLAMA (Language Model for Many Applications) model to summarize PDF documents. The LLAMA model, which can be downloaded from [this link](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/tree/main), provides advanced natural language processing capabilities for generating concise and informative summaries.
+PDF Summarizer is an application that leverages the power of the LLAMA model to summarize PDF documents. The LLAMA model, which can be downloaded from [this link](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/tree/main), provides advanced natural language processing capabilities for generating concise and informative summaries.
 
 ## Features
 
@@ -38,7 +38,6 @@ streamlit run app.py
 
 - Python 3.x
 - Streamlit
-- PyTorch (automatically installed with the LLAMA model)
 
 ## Acknowledgments
 
@@ -47,9 +46,3 @@ streamlit run app.py
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or feedback, please contact [your-email@example.com].
-
-Feel free to customize this README to suit your project's specific details and requirements.
